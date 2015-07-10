@@ -21,7 +21,7 @@ $(function(){
         cloudZoom.closeZoom();                       
         // and pass Cloud Zoom's image list to Fancy Box.
         $.fancybox.open(cloudZoom.getGalleryList(), {
-            height  : '100%',
+            height  : '200%',
             helpers:  {
                 thumbs : {
                     width: 50,
@@ -38,8 +38,8 @@ $(function(){
                        $.extend(this, {
                            aspectRatio : true,
                            type    : 'html',
-                           height  : '100%',
-                           content : '<div class="fancybox-image" style="max-height:100%; max-width:100%;margin:auto;display:block;height:auto"><a href="' + this.href + '"> s /><a id="zoom-glass" href="' + this.href + '"><img src="' + this.href + '" style="max-height:100%; max-width:100%;margin:auto;display:block;height:auto"></img></div><a id="zoom-glass" href="' + this.href + '"><i class="fa fa-search-plus"></i></a>'
+                           height  : '200%',
+                           content : '<div class="fancybox-image" style="max-height:200%; max-width:200%;margin:auto;display:block;height:auto"><a href="' + this.href + '"> s /><a id="zoom-glass" href="' + this.href + '"><img src="' + this.href + '" style="max-height:100%; max-width:100%;margin:auto;display:block;height:auto"></img></div><a id="zoom-glass" href="' + this.href + '"><i class="fa fa-search-plus"></i></a>'
                        })
           }
         }); 
